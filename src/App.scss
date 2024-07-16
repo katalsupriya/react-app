@@ -1,0 +1,20 @@
+/* The following line can be included in a src/App.scss */
+/* ================================= */
+/* ======= Dashboard css========= */
+/* ================================= */
+/* ========== font family ======= */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+$font-family-base:          'Montserrat', sans-serif !default;
+/* ========== global custom classes ===== */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main{
+  height: calc(100vh - 4.5rem);
+}
+
+@import "~bootstrap/scss/bootstrap";
+
